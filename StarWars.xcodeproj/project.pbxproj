@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B27B20C16FEFAC800FF8062 /* c3po.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B27B20716FEFAC800FF8062 /* c3po.png */; };
+		6B27B20D16FEFAC800FF8062 /* chewbacca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B27B20816FEFAC800FF8062 /* chewbacca.jpg */; };
+		6B27B20E16FEFAC800FF8062 /* darthVader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B27B20916FEFAC800FF8062 /* darthVader.jpg */; };
+		6B27B20F16FEFAC800FF8062 /* palpatine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B27B20A16FEFAC800FF8062 /* palpatine.jpg */; };
+		6B27B21016FEFAC800FF8062 /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B27B20B16FEFAC800FF8062 /* yoda.jpg */; };
+		6B6C3AEC16FCC38800552484 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6C3AEB16FCC38800552484 /* UIKit.framework */; };
+		6B6C3AEE16FCC38800552484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6C3AED16FCC38800552484 /* Foundation.framework */; };
+		6B6C3AF016FCC38800552484 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6C3AEF16FCC38800552484 /* CoreGraphics.framework */; };
+		6B6C3AF616FCC38800552484 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3AF416FCC38800552484 /* InfoPlist.strings */; };
+		6B6C3AF816FCC38800552484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3AF716FCC38800552484 /* main.m */; };
+		6B6C3AFC16FCC38800552484 /* AMEHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3AFB16FCC38800552484 /* AMEHAppDelegate.m */; };
+		6B6C3AFE16FCC38800552484 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3AFD16FCC38800552484 /* Default.png */; };
+		6B6C3B0016FCC38800552484 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3AFF16FCC38800552484 /* Default@2x.png */; };
+		6B6C3B0216FCC38800552484 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B0116FCC38800552484 /* Default-568h@2x.png */; };
+		6B6C3B0A16FCC3AE00552484 /* AMEHCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3B0916FCC3AE00552484 /* AMEHCharacter.m */; };
+		6B6C3B1C16FDB7D700552484 /* AMEHCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3B1A16FDB7D700552484 /* AMEHCharacterViewController.m */; };
+		6B6C3B1D16FDB7D700552484 /* AMEHCharacterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B1B16FDB7D700552484 /* AMEHCharacterViewController.xib */; };
+		6B6C3B1F16FDB83500552484 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B1E16FDB83500552484 /* Default-Landscape@2x~ipad.png */; };
+		6B6C3B2116FDB83900552484 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B2016FDB83900552484 /* Default-Landscape~ipad.png */; };
+		6B6C3B2516FDC8D600552484 /* AMEHWikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3B2316FDC8D600552484 /* AMEHWikiViewController.m */; };
+		6B6C3B2616FDC8D600552484 /* AMEHWikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B2416FDC8D600552484 /* AMEHWikiViewController.xib */; };
+		6B6C3B2C16FDD75E00552484 /* chewbacca.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B2716FDD75E00552484 /* chewbacca.caf */; };
+		6B6C3B2D16FDD75E00552484 /* c3po.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B2816FDD75E00552484 /* c3po.caf */; };
+		6B6C3B2E16FDD75E00552484 /* palpatine.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B2916FDD75E00552484 /* palpatine.caf */; };
+		6B6C3B2F16FDD75E00552484 /* yoda.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B2A16FDD75E00552484 /* yoda.caf */; };
+		6B6C3B3016FDD75E00552484 /* vader.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B2B16FDD75E00552484 /* vader.caf */; };
+		6B6C3B6116FDD95B00552484 /* CafPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3B5F16FDD95B00552484 /* CafPlayer.m */; };
+		6B6C3B6316FDD97400552484 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6C3B6216FDD97400552484 /* AVFoundation.framework */; };
+		6B6C3B6516FDDDC700552484 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B6416FDDDC700552484 /* Default-Portrait~ipad.png */; };
+		6B6C3B6716FDDDD400552484 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B6616FDDDD400552484 /* Default-Portrait@2x~ipad.png */; };
+		6B6C3B6A16FE195000552484 /* r2d2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B6916FE195000552484 /* r2d2.jpg */; };
+		6B6C3B6C16FE19C800552484 /* R2D2a.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6B6C3B6B16FE19C800552484 /* R2D2a.wav */; };
+		6B6C3B6F16FE1D7500552484 /* AMEHCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3B6E16FE1D7500552484 /* AMEHCharacters.m */; };
+		6B6C3B7516FE230800552484 /* AMEHCharactersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C3B7416FE230800552484 /* AMEHCharactersViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B27B20716FEFAC800FF8062 /* c3po.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c3po.png; sourceTree = "<group>"; };
+		6B27B20816FEFAC800FF8062 /* chewbacca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chewbacca.jpg; sourceTree = "<group>"; };
+		6B27B20916FEFAC800FF8062 /* darthVader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darthVader.jpg; sourceTree = "<group>"; };
+		6B27B20A16FEFAC800FF8062 /* palpatine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palpatine.jpg; sourceTree = "<group>"; };
+		6B27B20B16FEFAC800FF8062 /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoda.jpg; sourceTree = "<group>"; };
+		6B27B21116FF575800FF8062 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		6B6C3AE816FCC38800552484 /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B6C3AEB16FCC38800552484 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B6C3AED16FCC38800552484 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B6C3AEF16FCC38800552484 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B6C3AF316FCC38800552484 /* StarWars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarWars-Info.plist"; sourceTree = "<group>"; };
+		6B6C3AF516FCC38800552484 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B6C3AF716FCC38800552484 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B6C3AF916FCC38800552484 /* StarWars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarWars-Prefix.pch"; sourceTree = "<group>"; };
+		6B6C3AFA16FCC38800552484 /* AMEHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMEHAppDelegate.h; sourceTree = "<group>"; };
+		6B6C3AFB16FCC38800552484 /* AMEHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMEHAppDelegate.m; sourceTree = "<group>"; };
+		6B6C3AFD16FCC38800552484 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6B6C3AFF16FCC38800552484 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6B6C3B0116FCC38800552484 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B6C3B0816FCC3AE00552484 /* AMEHCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMEHCharacter.h; sourceTree = "<group>"; };
+		6B6C3B0916FCC3AE00552484 /* AMEHCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMEHCharacter.m; sourceTree = "<group>"; };
+		6B6C3B1916FDB7D700552484 /* AMEHCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMEHCharacterViewController.h; sourceTree = "<group>"; };
+		6B6C3B1A16FDB7D700552484 /* AMEHCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMEHCharacterViewController.m; sourceTree = "<group>"; };
+		6B6C3B1B16FDB7D700552484 /* AMEHCharacterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMEHCharacterViewController.xib; sourceTree = "<group>"; };
+		6B6C3B1E16FDB83500552484 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		6B6C3B2016FDB83900552484 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		6B6C3B2216FDC8D600552484 /* AMEHWikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMEHWikiViewController.h; sourceTree = "<group>"; };
+		6B6C3B2316FDC8D600552484 /* AMEHWikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMEHWikiViewController.m; sourceTree = "<group>"; };
+		6B6C3B2416FDC8D600552484 /* AMEHWikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMEHWikiViewController.xib; sourceTree = "<group>"; };
+		6B6C3B2716FDD75E00552484 /* chewbacca.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chewbacca.caf; sourceTree = "<group>"; };
+		6B6C3B2816FDD75E00552484 /* c3po.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c3po.caf; sourceTree = "<group>"; };
+		6B6C3B2916FDD75E00552484 /* palpatine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = palpatine.caf; sourceTree = "<group>"; };
+		6B6C3B2A16FDD75E00552484 /* yoda.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoda.caf; sourceTree = "<group>"; };
+		6B6C3B2B16FDD75E00552484 /* vader.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vader.caf; sourceTree = "<group>"; };
+		6B6C3B5F16FDD95B00552484 /* CafPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CafPlayer.m; sourceTree = "<group>"; };
+		6B6C3B6016FDD95B00552484 /* CafPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CafPlayer.h; sourceTree = "<group>"; };
+		6B6C3B6216FDD97400552484 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6B6C3B6416FDDDC700552484 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		6B6C3B6616FDDDD400552484 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		6B6C3B6916FE195000552484 /* r2d2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = r2d2.jpg; sourceTree = "<group>"; };
+		6B6C3B6B16FE19C800552484 /* R2D2a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = R2D2a.wav; sourceTree = "<group>"; };
+		6B6C3B6D16FE1D7500552484 /* AMEHCharacters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMEHCharacters.h; sourceTree = "<group>"; };
+		6B6C3B6E16FE1D7500552484 /* AMEHCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMEHCharacters.m; sourceTree = "<group>"; };
+		6B6C3B7316FE230800552484 /* AMEHCharactersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMEHCharactersViewController.h; sourceTree = "<group>"; };
+		6B6C3B7416FE230800552484 /* AMEHCharactersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMEHCharactersViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B6C3AE516FCC38800552484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6C3B6316FDD97400552484 /* AVFoundation.framework in Frameworks */,
+				6B6C3AEC16FCC38800552484 /* UIKit.framework in Frameworks */,
+				6B6C3AEE16FCC38800552484 /* Foundation.framework in Frameworks */,
+				6B6C3AF016FCC38800552484 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B6C3ADF16FCC38800552484 = {
+			isa = PBXGroup;
+			children = (
+				6B6C3B6616FDDDD400552484 /* Default-Portrait@2x~ipad.png */,
+				6B6C3B6416FDDDC700552484 /* Default-Portrait~ipad.png */,
+				6B6C3AF116FCC38800552484 /* StarWars */,
+				6B6C3AEA16FCC38800552484 /* Frameworks */,
+				6B6C3AE916FCC38800552484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B6C3AE916FCC38800552484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C3AE816FCC38800552484 /* StarWars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B6C3AEA16FCC38800552484 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C3B6216FDD97400552484 /* AVFoundation.framework */,
+				6B6C3AEB16FCC38800552484 /* UIKit.framework */,
+				6B6C3AED16FCC38800552484 /* Foundation.framework */,
+				6B6C3AEF16FCC38800552484 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B6C3AF116FCC38800552484 /* StarWars */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C3B6816FE069100552484 /* utilities */,
+				6B6C3B0E16FDB64900552484 /* sounds */,
+				6B6C3B0D16FDB63800552484 /* controlers */,
+				6B6C3B0C16FDB62F00552484 /* models */,
+				6B6C3B0B16FDB62400552484 /* images */,
+				6B6C3AFA16FCC38800552484 /* AMEHAppDelegate.h */,
+				6B6C3AFB16FCC38800552484 /* AMEHAppDelegate.m */,
+				6B27B21116FF575800FF8062 /* Settings.h */,
+				6B6C3AF216FCC38800552484 /* Supporting Files */,
+			);
+			path = StarWars;
+			sourceTree = "<group>";
+		};
+		6B6C3AF216FCC38800552484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C3AF316FCC38800552484 /* StarWars-Info.plist */,
+				6B6C3AF416FCC38800552484 /* InfoPlist.strings */,
+				6B6C3AF716FCC38800552484 /* main.m */,
+				6B6C3AF916FCC38800552484 /* StarWars-Prefix.pch */,
+				6B6C3AFD16FCC38800552484 /* Default.png */,
+				6B6C3AFF16FCC38800552484 /* Default@2x.png */,
+				6B6C3B0116FCC38800552484 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B6C3B0B16FDB62400552484 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6B27B20716FEFAC800FF8062 /* c3po.png */,
+				6B27B20816FEFAC800FF8062 /* chewbacca.jpg */,
+				6B27B20916FEFAC800FF8062 /* darthVader.jpg */,
+				6B27B20A16FEFAC800FF8062 /* palpatine.jpg */,
+				6B27B20B16FEFAC800FF8062 /* yoda.jpg */,
+				6B6C3B6916FE195000552484 /* r2d2.jpg */,
+				6B6C3B2016FDB83900552484 /* Default-Landscape~ipad.png */,
+				6B6C3B1E16FDB83500552484 /* Default-Landscape@2x~ipad.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		6B6C3B0C16FDB62F00552484 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C3B0816FCC3AE00552484 /* AMEHCharacter.h */,
+				6B6C3B0916FCC3AE00552484 /* AMEHCharacter.m */,
+				6B6C3B6D16FE1D7500552484 /* AMEHCharacters.h */,
+				6B6C3B6E16FE1D7500552484 /* AMEHCharacters.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		6B6C3B0D16FDB63800552484 /* controlers */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C3B1916FDB7D700552484 /* AMEHCharacterViewController.h */,
+				6B6C3B1A16FDB7D700552484 /* AMEHCharacterViewController.m */,
+				6B6C3B1B16FDB7D700552484 /* AMEHCharacterViewController.xib */,
+				6B6C3B2216FDC8D600552484 /* AMEHWikiViewController.h */,
+				6B6C3B2316FDC8D600552484 /* AMEHWikiViewController.m */,
+				6B6C3B2416FDC8D600552484 /* AMEHWikiViewController.xib */,
+				6B6C3B7316FE230800552484 /* AMEHCharactersViewController.h */,
+				6B6C3B7416FE230800552484 /* AMEHCharactersViewController.m */,
+			);
+			name = controlers;
+			sourceTree = "<group>";
+		};
+		6B6C3B0E16FDB64900552484 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6B6C3B6B16FE19C800552484 /* R2D2a.wav */,
+				6B6C3B5F16FDD95B00552484 /* CafPlayer.m */,
+				6B6C3B6016FDD95B00552484 /* CafPlayer.h */,
+				6B6C3B2716FDD75E00552484 /* chewbacca.caf */,
+				6B6C3B2816FDD75E00552484 /* c3po.caf */,
+				6B6C3B2916FDD75E00552484 /* palpatine.caf */,
+				6B6C3B2A16FDD75E00552484 /* yoda.caf */,
+				6B6C3B2B16FDD75E00552484 /* vader.caf */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		6B6C3B6816FE069100552484 /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B6C3AE716FCC38800552484 /* StarWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6C3B0516FCC38800552484 /* Build configuration list for PBXNativeTarget "StarWars" */;
+			buildPhases = (
+				6B6C3AE416FCC38800552484 /* Sources */,
+				6B6C3AE516FCC38800552484 /* Frameworks */,
+				6B6C3AE616FCC38800552484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWars;
+			productName = StarWars;
+			productReference = 6B6C3AE816FCC38800552484 /* StarWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B6C3AE016FCC38800552484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AMEH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Antonio Martin";
+			};
+			buildConfigurationList = 6B6C3AE316FCC38800552484 /* Build configuration list for PBXProject "StarWars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B6C3ADF16FCC38800552484;
+			productRefGroup = 6B6C3AE916FCC38800552484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B6C3AE716FCC38800552484 /* StarWars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B6C3AE616FCC38800552484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6C3AF616FCC38800552484 /* InfoPlist.strings in Resources */,
+				6B6C3AFE16FCC38800552484 /* Default.png in Resources */,
+				6B6C3B0016FCC38800552484 /* Default@2x.png in Resources */,
+				6B6C3B0216FCC38800552484 /* Default-568h@2x.png in Resources */,
+				6B6C3B1D16FDB7D700552484 /* AMEHCharacterViewController.xib in Resources */,
+				6B6C3B1F16FDB83500552484 /* Default-Landscape@2x~ipad.png in Resources */,
+				6B6C3B2116FDB83900552484 /* Default-Landscape~ipad.png in Resources */,
+				6B6C3B2616FDC8D600552484 /* AMEHWikiViewController.xib in Resources */,
+				6B6C3B2C16FDD75E00552484 /* chewbacca.caf in Resources */,
+				6B6C3B2D16FDD75E00552484 /* c3po.caf in Resources */,
+				6B6C3B2E16FDD75E00552484 /* palpatine.caf in Resources */,
+				6B6C3B2F16FDD75E00552484 /* yoda.caf in Resources */,
+				6B6C3B3016FDD75E00552484 /* vader.caf in Resources */,
+				6B6C3B6516FDDDC700552484 /* Default-Portrait~ipad.png in Resources */,
+				6B6C3B6716FDDDD400552484 /* Default-Portrait@2x~ipad.png in Resources */,
+				6B6C3B6A16FE195000552484 /* r2d2.jpg in Resources */,
+				6B6C3B6C16FE19C800552484 /* R2D2a.wav in Resources */,
+				6B27B20C16FEFAC800FF8062 /* c3po.png in Resources */,
+				6B27B20D16FEFAC800FF8062 /* chewbacca.jpg in Resources */,
+				6B27B20E16FEFAC800FF8062 /* darthVader.jpg in Resources */,
+				6B27B20F16FEFAC800FF8062 /* palpatine.jpg in Resources */,
+				6B27B21016FEFAC800FF8062 /* yoda.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B6C3AE416FCC38800552484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6C3AF816FCC38800552484 /* main.m in Sources */,
+				6B6C3AFC16FCC38800552484 /* AMEHAppDelegate.m in Sources */,
+				6B6C3B0A16FCC3AE00552484 /* AMEHCharacter.m in Sources */,
+				6B6C3B1C16FDB7D700552484 /* AMEHCharacterViewController.m in Sources */,
+				6B6C3B2516FDC8D600552484 /* AMEHWikiViewController.m in Sources */,
+				6B6C3B6116FDD95B00552484 /* CafPlayer.m in Sources */,
+				6B6C3B6F16FE1D7500552484 /* AMEHCharacters.m in Sources */,
+				6B6C3B7516FE230800552484 /* AMEHCharactersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B6C3AF416FCC38800552484 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B6C3AF516FCC38800552484 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B6C3B0316FCC38800552484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B6C3B0416FCC38800552484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B6C3B0616FCC38800552484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarWars/StarWars-Prefix.pch";
+				INFOPLIST_FILE = "StarWars/StarWars-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B6C3B0716FCC38800552484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarWars/StarWars-Prefix.pch";
+				INFOPLIST_FILE = "StarWars/StarWars-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B6C3AE316FCC38800552484 /* Build configuration list for PBXProject "StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6C3B0316FCC38800552484 /* Debug */,
+				6B6C3B0416FCC38800552484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6C3B0516FCC38800552484 /* Build configuration list for PBXNativeTarget "StarWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6C3B0616FCC38800552484 /* Debug */,
+				6B6C3B0716FCC38800552484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B6C3AE016FCC38800552484 /* Project object */;
+}
