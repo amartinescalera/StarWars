@@ -76,11 +76,15 @@
 }
 
 -(int) imperialCount {
-    return [self.imperialCharacters count];
+    // When building 32-bit applications, NSUInteger is a 32-bit unsigned integer.
+    // A 64-bit application treats NSUInteger as a 64-bit unsigned integer.
+    return (int)[self.imperialCharacters count];
 }
 
 -(int) rebelCount {
-    return [self.rebelCharacters count];
+    // When building 32-bit applications, NSUInteger is a 32-bit unsigned integer.
+    // A 64-bit application treats NSUInteger as a 64-bit unsigned integer.
+    return (int)[self.rebelCharacters count];
 }
 
 -(AMEHCharacter*) imperialCharacterAtIndex:(int)index {

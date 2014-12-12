@@ -80,10 +80,15 @@
     
     //Averiguamos de que personaje se trata
     AMEHCharacter *character = nil;
+    
+    // When building 32-bit applications, NSUInteger is a 32-bit unsigned integer.
+    // A 64-bit application treats NSUInteger as a 64-bit unsigned integer.
+    int index = (int) indexPath.row;
+    
     if (indexPath.section == REBEL_SECTION) {
-        character = [self.model rebelCharacterAtIndex:indexPath.row];
+        character = [self.model rebelCharacterAtIndex:index];
     } else {
-         character = [self.model imperialCharacterAtIndex:indexPath.row];
+         character = [self.model imperialCharacterAtIndex:index];
     }
     
     //Creamos la Celda
@@ -156,12 +161,17 @@
      */
     
     //Averiguamos el personaje
-        //Creamos un modelo
+    //Creamos un modelo
+    
+    // When building 32-bit applications, NSUInteger is a 32-bit unsigned integer.
+    // A 64-bit application treats NSUInteger as a 64-bit unsigned integer.
+    int index = (int) indexPath.row;
+    
     AMEHCharacter *character = nil;
     if (indexPath.section == REBEL_SECTION) {
-        character = [self.model rebelCharacterAtIndex:indexPath.row];
+        character = [self.model rebelCharacterAtIndex:index];
     } else {
-        character = [self.model imperialCharacterAtIndex:indexPath.row];
+        character = [self.model imperialCharacterAtIndex:index];
     }
     
     //Avisamos a nuestro delegado

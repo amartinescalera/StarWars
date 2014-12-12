@@ -142,8 +142,10 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSDictionary *coords = [defaults objectForKey:LAST_CHARACTER_KEY];
     
-    int section = [[coords objectForKey:SECTION_KEY] integerValue];
-    int row = [[coords objectForKey:ROW_KEY] integerValue];
+    // When building 32-bit applications, NSUInteger is a 32-bit unsigned integer.
+    // A 64-bit application treats NSUInteger as a 64-bit unsigned integer.
+    int section = (int)[[coords objectForKey:SECTION_KEY] integerValue];
+    int row = (int)[[coords objectForKey:ROW_KEY] integerValue];
     
     AMEHCharacter *character = nil;
     
